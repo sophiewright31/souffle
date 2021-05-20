@@ -1,0 +1,151 @@
+body {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    font-family: Copernicus, 'Helvetica Neue', Arial, 'Lucida Grande', sans-serif;;
+}
+
+.logo{
+    display: flex;
+    justify-content: right;
+}
+
+nav ul {
+    background: #1408DA;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    margin-bottom: 0px;
+}
+
+nav ul li {
+    list-style: none;
+    padding-top: 5px;
+    padding-right: 25px;
+    margin-top: 5px;
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+header {
+    text-align: center;
+    font-family: Söhne Breit, 'Helvetica Neue', Arial, 'Lucida Grande', sans-serif;
+}
+
+#education {
+    height: 100%;
+    background-image: url("src/education.jpg");
+    background-size: cover;
+}
+
+h1 {
+    text-align: left;
+    font-family: Söhne Breit, 'Helvetica Neue', Arial, 'Lucida Grande', sans-serif;
+    color: #fa5c26;
+    padding-top: 310px;
+    padding-left: 100px;
+    font-size: 38px;
+    margin-top: 0px;
+}
+
+h2 {
+    text-align: center;
+    font-family: Copernicus, 'Helvetica Neue', Arial, 'Lucida Grande', sans-serif;;
+    color: #fa5c26;
+    font-size: 45px;
+}
+
+h3 {
+    text-align: center;
+    font-family: Söhne Breit, 'Helvetica Neue', Arial, 'Lucida Grande', sans-serif;
+    color: #1408DA;
+    font-size: 38px;
+}
+
+h4 {
+    text-align: center;
+    font-family: Söhne Breit, 'Helvetica Neue', Arial, 'Lucida Grande', sans-serif;
+    color: white;
+    padding-top: 50px;
+    padding-left: 100px;
+    font-size: 38px;
+    margin-top: 0px;
+}
+
+p {
+    text-align: center;
+    font-family: Copernicus, 'Helvetica Neue', Arial, 'Lucida Grande', sans-serif;;
+    color: #1408DA;
+    font-size: 20px;
+    margin-block-end: 6%;
+    writing-mode: horizontal-tb;
+}
+
+#casserole {
+    height: 100%;
+    background-image: url("src/casserole.JPG");
+    background-size: cover;
+}
+
+#prototype {
+    height: 100%;
+    background-image: url("src/prototype.JPG");
+    background-size: cover;
+}
+
+#creation {
+    height: 100%;
+    background-image: url("src/creation.JPG");
+    background-size: cover;
+}
+
+#plats {
+    height: 100%;
+    background-image: url("src/plats.jpg");
+    background-size: cover;
+}
+
+footer {
+    background-color: #1408DA;
+}
+
+footer p {
+    text-align: center;
+    font-family: Copernicus, 'Helvetica Neue', Arial, 'Lucida Grande', sans-serif;;
+    color: white;
+}
+
+#ContactForm {
+    text-align: center;
+    margin-block-end: 6%;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+.card {
+    flex: auto;
+    margin: 30px;
+}
+
+footer ul li {
+    list-style: none;
+    padding-top: 10px;
+    padding-right: 25px;
+    padding-left: 25px;
+    margin-top: 5px;
+}
